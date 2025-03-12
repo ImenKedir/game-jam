@@ -1,0 +1,16 @@
+# nixpacks.toml
+
+# Specify Node.js as the provider
+providers = ["node"]
+
+# Setup phase: Ensure Node.js is available
+[phases.setup]
+  nixPkgs = ["nodejs"]
+
+# Build phase: Run the build command
+[phases.build]
+  cmds = ["npm run build"]  # Runs "robo build" as per package.json
+
+# Start phase: Define the start command
+[start]
+  cmd = "npm run start"     # Runs "robo start" as per package.json
