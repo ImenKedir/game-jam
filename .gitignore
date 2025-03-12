@@ -28,3 +28,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 .gitattributes
+
+node_modules/
+bun.lock
+bun.lockb
