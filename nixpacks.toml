@@ -15,4 +15,4 @@ providers = ["node"]
 
 [variables]
   HOST = "0.0.0.0"  # Bind to all interfaces
-  PORT = "3000"     # Default, overridden by Railway if set
+  PORT = "8080"     # Default, overridden by Railway if set
