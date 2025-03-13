@@ -16,3 +16,4 @@ providers = ["node"]
 [variables]
   HOST = "0.0.0.0"  # Bind to all interfaces
   PORT = "8080"     # Default, overridden by Railway if set
+  NODE_ENV = "production"
