@@ -12,3 +12,7 @@ providers = ["node"]
 
 [start]
   cmd = "npm run start"     # Runs "robo start"
+
+[variables]
+  HOST = "0.0.0.0"  # Bind to all interfaces
+  PORT = "3000"     # Default, overridden by Railway if set
